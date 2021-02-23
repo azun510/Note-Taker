@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Notes.html
 app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html/notes.html'));
+    res.sendFile(path.join(__dirname, '/BootcampChallenge11/Develop/public/index.html/notes.html'));
   });
 
 // Notes 
@@ -28,7 +28,7 @@ app.get('/api/notes/:id', (req, res) => {
 
 // Index.html
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../public/index.html'));
+  res.sendFile(path.join(__dirname, '/BootcampChallenge11/Developpublic/index.html'));
 });
 
 // Save Note
