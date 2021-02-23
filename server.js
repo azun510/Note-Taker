@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Notes.html
 app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, '/Develop/public/index.html/notes.html'));
+    res.sendFile(path.join(__dirname, '/Develop/public/notes.html'));
   });
 
 // Notes 
