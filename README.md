@@ -12,7 +12,7 @@
   * Heroku CLI
   
 ## Usage 
-https://dashboard.heroku.com/apps/notetaker-azun
+https://notetaker-azun.herokuapp.com/
 
 https://github.com/azun510/note-taker
 
