@@ -28,7 +28,7 @@ app.get('/api/notes/:id', (req, res) => {
 
 // Index.html
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/BootcampChallenge11/Developpublic/index.html'));
+  res.sendFile(path.join(__dirname, '/BootcampChallenge11/Develop/public/index.html'));
 });
 
 // Save Note
