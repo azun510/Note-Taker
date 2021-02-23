@@ -43,20 +43,15 @@ app.post('/api/notes', (req, res) => {
   res.json(saveNote);
 })
 
-// delete notes 
 app.delete('/api/notes/:id', (req, res) => {
 
-    // ...read all notes from the db.json file
     const saveNote = JSON.parse(fs.readFileSync('./db/db.json'));
     const noteID = req.params.id;
     const newID = 0;
   
-    // filter the note
     saveNote = saveNote.filter(chosenNote => {
         return chosenNote.id != noteID;
     })
-    
-     // rewrite the note
     for (chosenNote of saveNote) {
         chosenNote.id = newID.toString();
         newID++;
