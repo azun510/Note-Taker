@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.static(__dirname + '/public'));
 
 
-//  Routes
+//  Routes and rearranged folders
 
 // Notes.html
 app.get('/notes', (req, res) => {
