@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Notes.html
 app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, '/Develop/public/notes.html'));
+    res.sendFile(path.join(__dirname, 'public', 'notes.html'));
   });
 
 // Notes 
@@ -29,7 +29,7 @@ app.get('/api/notes/:id', (req, res) => {
 
 // Index.html
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/Develop/public/index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // Save Note
