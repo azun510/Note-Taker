@@ -1,7 +1,7 @@
 # Note Taker Starter Code
 
 ## Description
-  Created an application that combiones the backend and the frontend to create a notetaking application. 
+  Created an application that combines the backend and the frontend to create a notetaking application. 
   
 ## Installation 
 
